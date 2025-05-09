@@ -32,6 +32,8 @@ WP_GE1 = EBCCIMG(img_RAW,mode='GE1', p=7, sigma=4)
 WP_GE2 = EBCCIMG(img_RAW,mode='GE2', p=7, sigma=5)
 ```
 
+`illumEst_EdgeBased_Scipy.py` is mainly based on `scipy`. More details are shown in it. All estimated illuminants are L2 normalized.
+
 ### Data
 1. In the folder `./input`, `Canon1DsMkIII_0199.PNG` is one demosaicked raw image without white balance from [NUS-8](https://yorkucvil.github.io/projects/public_html/illuminant/illuminant.html).
 2. `Canon1DsMkIII_0199.json` is the metadata extracted by [dcraw](https://www.dechifro.org/dcraw/dcraw.c). 
